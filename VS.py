@@ -31,6 +31,7 @@ a=float('%.03f'%(d.get(n2)[1]-d.get(n1)[1]))
 b=float('%.03f'%(0.5-a/20))
 q='·'*12
 print('{}正在模拟{}'.format(q,q))
+
 while g>0:
   c=float('%.05f'%random.random())
   if c>b:
